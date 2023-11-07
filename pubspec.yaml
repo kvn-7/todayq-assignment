@@ -1,0 +1,28 @@
+name: todayq_assignment
+description: My new Flutter app
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.3.0
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  intl: ^0.18.0
+  loading_indicator: ^3.1.1
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
